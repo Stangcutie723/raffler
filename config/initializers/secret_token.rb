@@ -1,12 +1,7 @@
 # Be sure to restart your server when you modify this file.
 
-# Your secret key is used for verifying the integrity of signed cookies.
+# Your secret key for verifying the integrity of signed cookies.
 # If you change this key, all old signed cookies will become invalid!
-
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-# You can use `rake secret` to generate a secure secret key.
-
-# Make sure your secret_key_base is kept private
-# if you're sharing your code publicly.
-Raffler::Application.config.secret_key_base = 'c3d74fa876d988a87b18c467ac1edf75867218dcba9233d5882371c0620bd35ebcd186547b38261a5a65f92970a989f2dde152e3c5267457cf034b92d966d38a'
+Raffler::Application.config.secret_token = '0f7e151ed4495a4620af4d2b4b8333d94bdd63a6df6fd9cfbb292139ce35093e956c2e80b783033e6a29bcbdbfdf7215e5f541b4a1e25093d4bef65c12c4e7df'

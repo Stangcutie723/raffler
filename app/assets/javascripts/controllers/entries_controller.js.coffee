@@ -1,9 +1,9 @@
 Raffler.EntriesController = Ember.ArrayController.extend
-  addEntry: (name)->
+  addEntry: (name) ->
     Raffler.Entry.createRecord(name: name)
     @get('store').commit()
 
-  drawWinnder: ->
+  drawWinner: ->
     @setEach('highlight', false)
     pool = @rejectProperty('winner')
     if pool.length > 0
@@ -12,6 +12,6 @@ Raffler.EntriesController = Ember.ArrayController.extend
       entry.set('highlight', true)
       @get('store').commit()
 
-allWinners: (->
-  @everyProperty('winner', true)
-).property('@each.winner')
+  allWinners: (->
+    @everyProperty('winner', true)
+  ).property('@each.winner')

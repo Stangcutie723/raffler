@@ -12,22 +12,24 @@
  *= require_tree .
  */
 body {
-  background-color: #000000;
+  background-color: #FFFFFF;
   font-size: 15px;
   font-family: Verdana;
-  color: #FFFFFF;
+  color: #020822;
   text-align: center;
 }
 
 #container {
-  border: 7px #FFFFFF solid;
-  border-radius: 10px;
+  border: 25px #020822 solid;
+  border-radius: 60px;
   font-weight: bold;
   font-size: 40px
 }
 
 ul li {
   text-align: left;
-  border: 2px #FFFFFF solid;
-
+  border-bottom: 2px #020822 solid;
+  color: #800080;
+  text-align: left;
 }
+
