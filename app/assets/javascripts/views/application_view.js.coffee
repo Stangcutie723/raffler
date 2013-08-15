@@ -1,2 +1,2 @@
-Raffler.ApplicationView = Ember.View.extend
-  templateName: 'application'
+Raffler.ApplicationView = Ember.View.extend()
+

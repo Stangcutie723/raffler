@@ -13,5 +13,5 @@ Raffler.EntriesController = Ember.ArrayController.extend
       @get('store').commit()
 
 allWinners: (->
-  @everyProperty('winner')
+  @everyProperty('winner', true)
 ).property('@each.winner')
