@@ -11,6 +11,9 @@
  *= require_self
  *= require_tree .
  */
+
+/*
+
 body {
   background-color: #FFFFFF;
   font-size: 15px;
@@ -28,8 +31,24 @@ body {
 
 ul li {
   text-align: left;
-  border-bottom: 2px #020822 solid;
   color: #800080;
   text-align: left;
 }
 
+input {
+  font-size: 25px;
+}
+
+.winner {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #999;
+}
+
+.highlight {
+  color: #DD0000;
+  font-weight: bold;
+}
+
+ */
